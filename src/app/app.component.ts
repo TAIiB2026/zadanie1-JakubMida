@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ListaComponent } from './lista/lista.component';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-
+  public plantsList: string[] = ['Róża', 'Kaktus', 'Hortensja', 'Stokrotka'];
 }
